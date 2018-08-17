@@ -1,0 +1,15 @@
+version: "3"
+services:
+  docker-dev-mode:
+    image: aapplingusgs/vizstorm-gif:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8787:8787"
+    volumes:
+      - "/D_DRIVE/APAData/Github/DS Vizzies/vizstorm-GIF-docker:/home/rstudio/vizstorm-GIF-docker"
+      - "/D_DRIVE/APAData/Github/DS Vizzies/vizstorm-GIF:/home/rstudio/vizstorm-GIF"
+    environment:
+      - ROOT=TRUE
+
