@@ -1,4 +1,4 @@
-FROM rocker/geospatial:latest
+FROM rocker/geospatial:3.5.1
 
 # install node and npm (see https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
 RUN sudo apt-get install -y curl &&\
@@ -6,7 +6,9 @@ RUN sudo apt-get install -y curl &&\
   curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash - &&\
   sudo apt-get update &&\
   sudo apt-get install -y nodejs &&\
-  sudo apt-get install -y build-essential
+  sudo apt-get install -y build-essential &&\
+  sudo apt-get install -y imagemagick &&\
+  sudo apt-get install -y gifsicle
 
 # install
 RUN sudo npm install -g\
