@@ -1,7 +1,7 @@
 version: "3"
 services:
   docker-dev-mode:
-    image: aapplingusgs/vizstorm-gif:latest
+    image: aapplingusgs/vizstorm-gif:0.2.0
     build:
       context: .
       dockerfile: Dockerfile
