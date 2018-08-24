@@ -2,9 +2,10 @@
 # and with comments with the code we used to install them. (The comments are useful to us humans, not required)
 
 # from CRAN
-# install.packages(c('arrayhelpers', 'fasterize', 'googledrive', 'snow'))
+# install.packages(c('arrayhelpers', 'fasterize', 'geoknife', 'googledrive', 'snow'))
 library(arrayhelpers)
 library(fasterize)
+library(geoknife) # install.packages('geoknife', repos=options()$repos['CRAN'])
 library(googledrive)
 library(snow)
 

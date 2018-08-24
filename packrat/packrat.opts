@@ -5,22 +5,7 @@ vcs.ignore.lib: TRUE
 vcs.ignore.src: FALSE
 external.packages:
     abind
-    assertive
-    assertive.base
-    assertive.code
-    assertive.data
-    assertive.data.uk
-    assertive.data.us
-    assertive.datetimes
-    assertive.files
-    assertive.matrices
-    assertive.models
-    assertive.numbers
-    assertive.properties
-    assertive.reflection
-    assertive.sets
-    assertive.strings
-    assertive.types
+    acepack
     assertthat
     backports
     base64enc
@@ -39,15 +24,16 @@ external.packages:
     callr
     caTools
     cellranger
+    checkmate
     class
     classInt
     cli
     clipr
+    cluster
     coda
     codetools
     colorspace
     commonmark
-    concaveman
     covr
     crayon
     crosstalk
@@ -67,13 +53,13 @@ external.packages:
     e1071
     evaluate
     expm
-    fansi
     feather
     FNN
     forcats
     foreach
     foreign
     formatR
+    Formula
     future
     gdalUtils
     gdata
@@ -82,6 +68,7 @@ external.packages:
     geoR
     geosphere
     ggplot2
+    ggplot2movies
     git2r
     globals
     glue
@@ -94,8 +81,11 @@ external.packages:
     gtools
     haven
     hdf5r
+    hexbin
     highr
+    Hmisc
     hms
+    htmlTable
     htmltools
     htmlwidgets
     httpuv
@@ -105,12 +95,12 @@ external.packages:
     intervals
     iterators
     jsonlite
-    KernSmooth
     knitr
     labeling
     Lahman
     later
     lattice
+    latticeExtra
     lazyeval
     leaflet
     leaflet.extras
@@ -120,36 +110,39 @@ external.packages:
     listenv
     littler
     lubridate
-    lwgeom
     magic
     magrittr
     manipulateWidget
     mapdata
     mapedit
+    mapproj
     maps
     maptools
     mapview
     markdown
     MASS
     Matrix
+    MatrixModels
     memoise
     mgcv
     microbenchmark
     mime
     miniUI
+    mnormt
     mockery
     modelr
+    multcomp
     munsell
+    mvtnorm
     ncdf4
     nlme
+    nnet
     nycflights13
     openssl
     packrat
     pillar
     pingr
-    pkgbuild
     pkgconfig
-    pkgload
     PKI
     plogr
     plyr
@@ -160,7 +153,9 @@ external.packages:
     processx
     proj4
     promises
+    psych
     purrr
+    quantreg
     R.methodsS3
     R.oo
     R.utils
@@ -201,6 +196,7 @@ external.packages:
     rticles
     rversions
     rvest
+    sandwich
     satellite
     scales
     selectr
@@ -211,6 +207,7 @@ external.packages:
     sourcetools
     sp
     spacetime
+    SparseM
     spatstat
     spatstat.data
     spatstat.utils
@@ -220,22 +217,21 @@ external.packages:
     stringdist
     stringi
     stringr
+    survival
     svglite
     tensor
     testit
     testthat
+    TH.data
     tibble
     tidyr
     tidyselect
     tidyverse
     tinytex
-    tmap
-    tmaptools
     tufte
     units
     utf8
     uuid
-    V8
     viridis
     viridisLite
     webshot
@@ -248,17 +244,31 @@ external.packages:
     xts
     yaml
     zoo
+    arrayhelpers
     base
     compiler
+    dataRetrieval
     datasets
+    fasterize
+    getopt
+    googledrive
     graphics
     grDevices
     grid
     methods
+    optparse
+    packrat
     parallel
+    progress
+    RcppArmadillo
+    remake
+    scipiper
+    snow
     splines
     stats
     stats4
+    storr
+    svUnit
     tcltk
     tools
     utils
@@ -280,22 +290,7 @@ local.repos:
 load.external.packages.on.startup: FALSE
 ignored.packages:
     abind
-    assertive
-    assertive.base
-    assertive.code
-    assertive.data
-    assertive.data.uk
-    assertive.data.us
-    assertive.datetimes
-    assertive.files
-    assertive.matrices
-    assertive.models
-    assertive.numbers
-    assertive.properties
-    assertive.reflection
-    assertive.sets
-    assertive.strings
-    assertive.types
+    acepack
     assertthat
     backports
     base64enc
@@ -314,15 +309,16 @@ ignored.packages:
     callr
     caTools
     cellranger
+    checkmate
     class
     classInt
     cli
     clipr
+    cluster
     coda
     codetools
     colorspace
     commonmark
-    concaveman
     covr
     crayon
     crosstalk
@@ -342,13 +338,13 @@ ignored.packages:
     e1071
     evaluate
     expm
-    fansi
     feather
     FNN
     forcats
     foreach
     foreign
     formatR
+    Formula
     future
     gdalUtils
     gdata
@@ -357,6 +353,7 @@ ignored.packages:
     geoR
     geosphere
     ggplot2
+    ggplot2movies
     git2r
     globals
     glue
@@ -369,8 +366,11 @@ ignored.packages:
     gtools
     haven
     hdf5r
+    hexbin
     highr
+    Hmisc
     hms
+    htmlTable
     htmltools
     htmlwidgets
     httpuv
@@ -380,12 +380,12 @@ ignored.packages:
     intervals
     iterators
     jsonlite
-    KernSmooth
     knitr
     labeling
     Lahman
     later
     lattice
+    latticeExtra
     lazyeval
     leaflet
     leaflet.extras
@@ -395,36 +395,39 @@ ignored.packages:
     listenv
     littler
     lubridate
-    lwgeom
     magic
     magrittr
     manipulateWidget
     mapdata
     mapedit
+    mapproj
     maps
     maptools
     mapview
     markdown
     MASS
     Matrix
+    MatrixModels
     memoise
     mgcv
     microbenchmark
     mime
     miniUI
+    mnormt
     mockery
     modelr
+    multcomp
     munsell
+    mvtnorm
     ncdf4
     nlme
+    nnet
     nycflights13
     openssl
     packrat
     pillar
     pingr
-    pkgbuild
     pkgconfig
-    pkgload
     PKI
     plogr
     plyr
@@ -435,7 +438,9 @@ ignored.packages:
     processx
     proj4
     promises
+    psych
     purrr
+    quantreg
     R.methodsS3
     R.oo
     R.utils
@@ -476,6 +481,7 @@ ignored.packages:
     rticles
     rversions
     rvest
+    sandwich
     satellite
     scales
     selectr
@@ -486,6 +492,7 @@ ignored.packages:
     sourcetools
     sp
     spacetime
+    SparseM
     spatstat
     spatstat.data
     spatstat.utils
@@ -495,22 +502,21 @@ ignored.packages:
     stringdist
     stringi
     stringr
+    survival
     svglite
     tensor
     testit
     testthat
+    TH.data
     tibble
     tidyr
     tidyselect
     tidyverse
     tinytex
-    tmap
-    tmaptools
     tufte
     units
     utf8
     uuid
-    V8
     viridis
     viridisLite
     webshot
@@ -523,17 +529,31 @@ ignored.packages:
     xts
     yaml
     zoo
+    arrayhelpers
     base
     compiler
+    dataRetrieval
     datasets
+    fasterize
+    getopt
+    googledrive
     graphics
     grDevices
     grid
     methods
+    optparse
+    packrat
     parallel
+    progress
+    RcppArmadillo
+    remake
+    scipiper
+    snow
     splines
     stats
     stats4
+    storr
+    svUnit
     tcltk
     tools
     utils
